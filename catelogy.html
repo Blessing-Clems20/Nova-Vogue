@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Vogue | Products</title>
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <link rel="stylesheet" href="./stylesheet/cate.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body id="products">
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <!-- ===== MARQUEE ===== -->
+        <div class="marquee">
+          <marquee behavior="scroll" direction="left">
+            🌟 Nova Vogue Annual Runway – December 15, 2025 |
+            🎉 Holiday Collection Launch – January 20, 2026 |
+            💃 Fashion Week Showcase – March 10, 2026 🌟
+          </marquee>
+        </div>
+        <nav class="navbar">
+            <h1 class="logo">Nova Vogue</h1>
+            <!-- HAMBURGER ICON -->
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="catelogy.html">Catelogy</a></li>
+              <li><a href="board.html">Board</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+      </header>
+    <!-- ===== FILTER BAR ===== -->
+    <section class="filter-bar">
+        <h2>Our Collections</h2>
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="gown">Gown</button>
+            <button class="filter-btn" data-category="trouser">Trousers</button>
+        </div>
+    </section>
+
+    <!-- ===== PRODUCTS GRID ===== -->
+    <section class="shop">
+        <div class="products-grid">
+            <!-- gown -->
+            <div class="product-card" data-category="gown">
+                <img src="image/64d2e336f505931254ba47344df549cd.jpg" alt="Silk Gown">
+                <h3>Golden Silk Gown</h3>
+                <p class="price">$250</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="trouser">
+                <img src="image/5f17a2b081b42f7c50f621980132305a.jpg" alt="Red Dress">
+                <h3>Ruby Red Dress</h3>
+                <p class="price">$290</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- trouser -->
+            <div class="product-card" data-category="gown">
+                <img src="image/a1a1e91320eb3ebdcbd8a0f87c4d17e4.jpg" alt="Designer Suit">
+                <h3>trouser’s Designer Suit</h3>
+                <p class="price">$320</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="gown">
+                <img src="image/978b7fc83be76caaaa6b7128ca86777e.jpg" alt="Blazer Set">
+                <h3>Royal Blazer Set</h3>
+                <p class="price">$280</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- BAGS -->
+            <div class="product-card" data-category="gown">
+                <img src="image/download.png" alt="Luxury Bag">
+                <h3>Classic Leather Bag</h3>
+                <p class="price">$180</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="trouser">
+                <img src="image/download (5).png" alt="Clutch">
+                <h3>Velvet Clutch</h3>
+                <p class="price">$120</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- ACCESSORIES -->
+            <div class="product-card" data-category="trouser">
+                <img src="image/download (6).png" alt="Necklace">
+                <h3>Crystal Necklace</h3>
+                <p class="price">$90</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="trouser">
+                <img src="image/download (7).png" alt="Earrings">
+                <h3>Gold Loop Earrings</h3>
+                <p class="price">$70</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- gown -->
+            <div class="product-card" data-category="trouser">
+                <img src="image/download (8).png" alt="Silk Gown">
+                <h3>Golden Silk Gown</h3>
+                <p class="price">$250</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="gown">
+                <img src="image/download (2).png" alt="Red Dress">
+                <h3>Ruby Red Dress</h3>
+                <p class="price">$290</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- trouser -->
+            <div class="product-card" data-category="gown">
+                <img src="image/download (3).png" alt="Designer Suit">
+                <h3>trouser’s Designer Suit</h3>
+                <p class="price">$320</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="gown">
+                <img src="image/download (4).png" alt="Blazer Set">
+                <h3>Royal Blazer Set</h3>
+                <p class="price">$280</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- BAGS -->
+            <div class="product-card" data-category="trouser">
+                <img src="image/1c223ff829f150a4469e03e763cb1cb3.jpg" alt="Luxury Bag">
+                <h3>Classic Leather Bag</h3>
+                <p class="price">$180</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="gown">
+                <img src="image/download (1).png" alt="Clutch">
+                <h3>Velvet Clutch</h3>
+                <p class="price">$120</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+
+            <!-- ACCESSORIES -->
+            <div class="product-card" data-category="trouser">
+                <img src="image/9e65fc5beeab21f5865235209e145a96.jpg" alt="Necklace">
+                <h3>Crystal Necklace</h3>
+                <p class="price">$90</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-category="trouser">
+                <img src="image/download (7).png" alt="Earrings">
+                <h3>Gold Loop Earrings</h3>
+                <p class="price">$70</p>
+                <button class="btn add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURED COLLECTION ===== -->
+    <section class="featured">
+        <h2>✨ 2025 Signature Collection ✨</h2>
+        <p>Timeless designs. Handcrafted luxury. Experience elegance redefined.</p>
+        <a href="#" class="btn">Explore Collection</a>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2025 Nova Vogue Fashion House. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

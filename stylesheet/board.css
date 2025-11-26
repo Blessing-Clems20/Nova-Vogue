@@ -1,0 +1,57 @@
+/* === BOARD OF TRUSTEES === */
+.board {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: var(--bg);
+}
+
+.board h2 {
+    color: var(--primary);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+.board p {
+    color: var(--muted);
+    margin-bottom: 40px;
+}
+
+.board-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.member-card {
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.member-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member-card h3 {
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.member-card p {
+    color: var(--muted);
+    font-size: 0.9em;
+}
